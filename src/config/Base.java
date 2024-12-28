@@ -31,7 +31,7 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
 	}
-
+//Run Before Method
 	@BeforeMethod
 	public Login launchApplication() throws IOException
 	{
